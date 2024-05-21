@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  
+  }
+  
+  .header-container{
+    background-color:#0b0e13 ;
+    padding: 16px;
+  }
+  
+  ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .menu-item{
+    list-style-type: none;
+  
+  }
+  
+  a{
+    text-decoration: none;
+      color: whitesmoke;
+  }
+  
+  button{
+    background-color: #FFAF00;
+    border: 0;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .banner-cotainer{
+    margin: 0;
+  }
+  
+  img{
+    width: 100%;
+  }
+  
+  .card-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 16px;
+  }
+  
+  .furniture-card{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+  }
+  
+  .contactus-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 24px;
+  
+  }
+  
+  label{
+    display: block;
+    margin-left: 12px;
+  }
+  
+  input, textarea{
+    width: 260px;
+    padding: 12px;
+    margin: 8px;
+    border: 1px solid #1E2738; 
+    border-radius: 8px;
+  }
